@@ -12,7 +12,7 @@ class Multiples
     end
 
     def sum_multiples
-        collect_multiples.reduce(:+)
+        collect_multiples.sum
     end
 
 end
